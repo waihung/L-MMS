@@ -1,0 +1,110 @@
+<resources>
+
+    <style name="Mms.Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Mms.Theme.ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/Mms.Theme.Widget</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/Mms.Theme.OverFlow</item>
+    </style>
+
+    <style name="Mms.Theme.Widget" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorHint">@color/mms_theme_widget_text_color</item>
+        <item name="android:textColor">@color/mms_theme_widget_text_color</item>
+        <item name="android:itemTextAppearance">@style/Mms.ThemeTextAppearance</item>
+    </style>
+
+    <style name="Mms.ThemeTextAppearance" parent="android:TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Mms.Theme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#01579b</item>
+        <item name="android:titleTextStyle">@style/Mms.Theme.ActionBar.TitleTextStyle</item>
+        <item name="android:height">58.0dip</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@color/mms_theme_actionbar_color</item>
+        <item name="android:backgroundSplit">@color/mms_theme_actionbar_color</item>
+    </style>
+
+    <style name="GoogleNavDrawer.MainSectionText" parent="android:TextAppearance.Medium">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:minHeight">@dimen/main_section_item_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="GoogleNavDrawer.SecondarySectionText" parent="GoogleNavDrawer.MainSectionText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:minHeight">@dimen/secondary_section_item_height</item>
+    </style>
+
+    <style name="Mms.Theme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColorHint">#fffafafa</item>
+        <item name="android:textColor">#fffafafa</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Mms.Theme.OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    
+    <style name="Mms.Theme.Compose" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Mms.Theme.Compose.ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/Mms.Theme.Compose.Widget</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/Mms.Theme.OverFlow</item>
+    </style>
+
+    <style name="Mms.Theme.Compose.Widget" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorHint">@color/mms_theme_widget_text_color</item>
+        <item name="android:textColor">@color/mms_theme_widget_text_color</item>
+        <item name="android:itemTextAppearance">@style/Mms.ThemeTextAppearance</item>
+    </style>
+
+    <style name="Mms.Theme.Compose.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/mms_grayish_black</item>
+        <item name="android:titleTextStyle">@style/Mms.Theme.ActionBar.TitleTextStyle</item>
+        <item name="android:height">58.0dip</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@color/mms_theme_actionbar_color</item>
+        <item name="android:backgroundSplit">@color/mms_theme_actionbar_color</item>
+    </style>
+    
+    <style name="Mms.Theme.Preferences" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Mms.Theme.Preferences.ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/Mms.Theme.Preferences.Widget</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/Mms.Theme.OverFlow</item>
+    </style>
+
+    <style name="Mms.Theme.Preferences.Widget" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorHint">@color/mms_theme_widget_text_color</item>
+        <item name="android:textColor">@color/mms_theme_widget_text_color</item>
+        <item name="android:itemTextAppearance">@style/Mms.ThemeTextAppearance</item>
+    </style>
+
+    <style name="Mms.Theme.Preferences.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#37474f</item>
+        <item name="android:titleTextStyle">@style/Mms.Theme.ActionBar.TitleTextStyle</item>
+        <item name="android:height">58.0dip</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@color/mms_theme_actionbar_color</item>
+        <item name="android:backgroundSplit">@color/mms_theme_actionbar_color</item>
+    </style>         
+
+</resources>

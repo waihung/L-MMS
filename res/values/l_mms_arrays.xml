@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_main_sections">
+        <item>Messages</item>
+        <item>Compose</item>
+        <item>Settings</item>
+    </string-array>
+
+    <array name="drawable_ids">
+        <item>@drawable/mms_messages</item>
+        <item>@drawable/mms_compose</item>
+        <item>@drawable/mms_settings</item>
+    </array>
+
+</resources>
